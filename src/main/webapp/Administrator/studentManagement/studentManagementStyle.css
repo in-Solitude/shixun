@@ -1,0 +1,50 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #33cc99;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.teacher-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.teacher-table th, .teacher-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.teacher-table th {
+    background-color: #33cc99;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #33cc99;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #29a382;
+}
+
+footer {
+    background-color: #33cc99;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}

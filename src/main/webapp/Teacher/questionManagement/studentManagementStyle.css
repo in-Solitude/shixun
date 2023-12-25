@@ -1,0 +1,54 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 设置最小高度为视口的高度 */
+}
+
+header {
+    background-color: #33cc99;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.student-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.student-table th {
+    background-color: #33cc99;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #33cc99;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #29a382;
+}
+
+footer {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    margin-top: auto; /* 将footer的上外边距设置为auto，以占据剩余的垂直空间 */
+}
