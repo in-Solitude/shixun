@@ -63,7 +63,7 @@
         <%-- 使用循环显示所有作业标题 --%>
         <%
             GenericDAO genericDAO;
-            try {
+            try {//qwe
                 genericDAO = new GenericDAO();
             } catch (ClassNotFoundException | SQLException e) {
                 throw new RuntimeException(e);

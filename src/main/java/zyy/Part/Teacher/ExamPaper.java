@@ -16,7 +16,7 @@ public class ExamPaper {
     public String getPaper_name() {
         return paper_name;
     }
-
+    //qwe
     public void setPaper_name(String paper_name) {
         this.paper_name = paper_name;
     }

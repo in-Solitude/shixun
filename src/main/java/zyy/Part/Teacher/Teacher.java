@@ -11,7 +11,7 @@ public class Teacher {
 
     public String getCollege() {
         return college;
-    }
+    }//qwe
 
     public void setCollege(String college) {
         this.college = college;

@@ -28,7 +28,7 @@ public class dataImportServlet extends HttpServlet {
         String data=request.getParameter("data");
         PrintWriter out = response.getWriter();
         response.setContentType("text/html;charset=UTF-8");
-        // String date2=request.getParameter("date2");
+        // String date2=request.getParameter("date2");qwe
         GenericDAO genericDAO;
         try {
             genericDAO=new GenericDAO();

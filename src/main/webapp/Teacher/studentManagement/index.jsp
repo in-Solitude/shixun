@@ -135,7 +135,7 @@
             final String DB_USERNAME = "sa";
             final String DB_PASSWORD = "sjk12345";
             GenericDAO genericDAO;
-            try {
+            try {//qwe
                 try {
                     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                 } catch (ClassNotFoundException e) {

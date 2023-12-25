@@ -3,5 +3,5 @@
 <!DOCTYPE html>
 <%
     session.invalidate(); // 用户退出，清除session
-    response.sendRedirect("Login.jsp"); // 跳转到登录页面
+    response.sendRedirect("Login.jsp"); // 跳转到登录页面//qwe
 %>

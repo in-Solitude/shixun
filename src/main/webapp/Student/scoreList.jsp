@@ -20,7 +20,7 @@
       conn = DriverManager.getConnection(url, user, password);
 
       // 查询该用户的作业列表和成绩
-      String sql = "SELECT paper_id, score FROM score WHERE id=?";
+      String sql = "SELECT paper_id, score FROM score WHERE id=?";//qwe
       //
       //select paper_name from ExamPaper where id in (select paper_id,score from score where id =?)
       pstmt = conn.prepareStatement(sql);

@@ -16,7 +16,7 @@
         .container {
             max-width: 500px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 20px;//qwe
         }
 
         .form-group {

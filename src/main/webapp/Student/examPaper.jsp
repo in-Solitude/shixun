@@ -25,7 +25,7 @@
         // 计分器初始化
         int totalScore = 0;
         int question_number = 0;
-        GenericDAO genericDAO;
+        GenericDAO genericDAO;//qwe
         try {
              genericDAO=  new GenericDAO();
         } catch (ClassNotFoundException | SQLException e) {

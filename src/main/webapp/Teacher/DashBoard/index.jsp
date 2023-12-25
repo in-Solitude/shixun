@@ -26,7 +26,7 @@
 <h2>概述</h2>
 <%
     Teacher teacher = (Teacher) session.getAttribute("Teacher");
-    if(teacher!=null&&teacher.getId() !=null){
+    if(teacher!=null&&teacher.getId() !=null){//qwe
         System.out.println(teacher.getId());
         out.print("<h3>教师登录成功.  欢迎你,"+teacher.getId()+"</h3>");
         Date currentDate = new Date();

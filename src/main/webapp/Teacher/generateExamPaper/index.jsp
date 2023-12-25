@@ -94,7 +94,7 @@
            genericDAO = new GenericDAO();
         } catch (ClassNotFoundException | SQLException e) {
           throw new RuntimeException(e);
-        }
+        }//qwe
         List<QuestionBank> questions = null;
         try {
           questions = genericDAO.getAll(QuestionBank.class);

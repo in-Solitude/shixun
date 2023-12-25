@@ -20,7 +20,7 @@ public class AdminFilter implements Filter {
             throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
-// 获取请求URL
+// 获取请求URLqwe
         String requestUrl = httpRequest.getRequestURL().toString();
 
 // 如果是CSS文件，则跳过过滤器

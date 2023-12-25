@@ -13,7 +13,7 @@ public class Test {
     public Test(){
 
     }
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {//qwe
         Student t= new Student();
         t.setName("test11");
         t.setId("12345");

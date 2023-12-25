@@ -22,7 +22,7 @@
             // 查询该用户的个人信息
             String sql = "SELECT * FROM student WHERE id=?";
             pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1, student.getId());
+            pstmt.setString(1, student.getId());//qwe
             rs = pstmt.executeQuery();
 
             if (rs.next()) {

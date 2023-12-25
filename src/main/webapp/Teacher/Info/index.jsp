@@ -67,7 +67,7 @@
     Teacher teacher= (Teacher) session.getAttribute("Teacher");
     System.out.println(teacher.getId());
     String username = teacher.getName();
-    Connection conn = null;
+    Connection conn = null;//qwe
     PreparedStatement pstmt = null;
     ResultSet rs = null;
     try {

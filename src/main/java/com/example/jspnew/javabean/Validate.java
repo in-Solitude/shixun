@@ -18,7 +18,7 @@ public class Validate {
         this.Profession=Profession;
         ProfessionNum=pro_switch(Profession);
     }
-    public Validate(){//创建时取得登录用户类型
+    public Validate(){//创建时取得登录用户类型qwe
     }
 
 

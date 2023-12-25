@@ -74,7 +74,7 @@
       throw new RuntimeException(e);
     }
     String id= (request.getParameter("id"));
-    System.out.println(id);
+    System.out.println(id);//qwe
     ExamPaper examPaper=new ExamPaper();
     examPaper.setPaper_id(id);
     PreparedStatement statement=null;

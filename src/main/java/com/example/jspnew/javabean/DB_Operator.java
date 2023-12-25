@@ -67,7 +67,7 @@ public class DB_Operator {
             statement.setString(1, date);
             statement.setString(2, type);
             statement.setString(3, name);
-            statement.setString(4, ip);
+            statement.setString(4, ip);qwe
             statement.setString(5, status);
 
             int rowsAffected = statement.executeUpdate();

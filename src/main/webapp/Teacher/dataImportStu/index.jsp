@@ -15,7 +15,7 @@
                 formatLabel.textContent = "学生数据的格式：学号, 姓名, 班级 ,以逗号或空格分割,每条数据一行";
             } else {
                 formatLabel.textContent = "";
-            }
+            }//qwe
         }
     </script>
 </head>

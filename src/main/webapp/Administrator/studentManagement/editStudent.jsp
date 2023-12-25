@@ -68,7 +68,7 @@
 <body>
 <%
     if(request.getParameter("id")==null){
-        return;
+        return;//qwe
     }
     int id= Integer.parseInt(request.getParameter("id"));
     GenericDAO genericDAO;

@@ -75,7 +75,7 @@
     try {
         examPapers = genericDAO.getAll(ExamPaper.class);
     } catch (SQLException e) {
-        throw new RuntimeException(e);
+        throw new RuntimeException(e);//qwe
     }
 %>
 

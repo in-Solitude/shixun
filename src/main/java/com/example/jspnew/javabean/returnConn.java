@@ -22,7 +22,7 @@ public class returnConn {
 
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         connection = DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD);
-        System.out.println("正常连接数据库");
+        System.out.println("正常连接数据库");//qwe
     }
 
 }

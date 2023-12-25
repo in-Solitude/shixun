@@ -77,7 +77,7 @@
     } catch (ClassNotFoundException | SQLException e) {
         throw new RuntimeException(e);
     }
-    List<Student> students =null;
+    List<Student> students =null;//qwe
     try {
         students=genericDAO.getAll(Student.class);
     } catch (SQLException e) {

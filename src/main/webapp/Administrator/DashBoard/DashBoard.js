@@ -20,7 +20,7 @@ let btnExportStudents = document.querySelector('.btn-export-students');
 let btnViewLogs = document.querySelector('.btn-view-logs');
 let btnSearchLogs = document.querySelector('.btn-search-logs');
 
-// 给按钮添加点击事件处理程序
+// 给按钮添加点击事件处理程序//qwe
 btnHome.addEventListener('click', function() {
     window.location.href = 'index.jsp';
 });

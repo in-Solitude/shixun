@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
         response.setContentType("text/html;charset = UTF-8");
         String action = request.getParameter("action");
 
-
+//qwe
         if (action != null) {
             Validate validate=new Validate(action);//从action中获取用户类型,决定validate语句所使用的数据库查询语句
             System.out.println("用户登录:"+action);

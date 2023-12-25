@@ -6,7 +6,7 @@
     <title>学生主页</title>
     <link rel="stylesheet" href="infoStyle.css">
     <%
-        Student student = (Student) session.getAttribute("Student");
+        Student student = (Student) session.getAttribute("Student");//qwe
     %>
 
 </head>

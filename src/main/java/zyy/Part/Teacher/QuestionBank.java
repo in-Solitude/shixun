@@ -13,7 +13,7 @@ public class QuestionBank {
 
     public void setId(Integer id) {
         this.id = id;
-    }
+    }//qwe
     public void setId(int question_id) {
         this.id = question_id;
     }

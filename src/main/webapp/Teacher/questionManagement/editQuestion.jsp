@@ -79,7 +79,7 @@
         throw new RuntimeException(e);
     }
     List<QuestionBank> questionBanks =null;
-    try {
+    try {//qwe
         questionBanks=genericDAO.getAll(QuestionBank.class);
     } catch (SQLException e) {
         throw new RuntimeException(e);

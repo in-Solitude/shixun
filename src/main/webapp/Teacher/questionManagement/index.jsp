@@ -145,7 +145,7 @@
                 genericDAO=new GenericDAO(DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD));
             } catch (SQLException e) {
                 throw new RuntimeException(e);
-            }
+            }//qwe
             //List<student> students = genericDAO.getAll(student.class);
             List<QuestionBank> questionBanks = null;
             try {

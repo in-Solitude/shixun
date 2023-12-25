@@ -69,7 +69,7 @@
         throw new RuntimeException(e);
     }
     List<Teacher> teachers =null;
-    try {
+    try {//qwe
         teachers=genericDAO.getAll(Teacher.class);
     } catch (SQLException e) {
         throw new RuntimeException(e);

@@ -16,7 +16,7 @@ public class GenericDAO {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
      connection=DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD);
 
-    }//7/3修改,暂时还未使用
+    }//7/3修改,暂时还未使用qwe
 
     public GenericDAO(Connection connection) {
         this.connection = connection;

@@ -16,7 +16,7 @@
             } else {
                 formatLabel.textContent = "";
             }
-        }
+        }//qwe
     </script>
 </head>
 <body>

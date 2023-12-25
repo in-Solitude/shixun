@@ -32,7 +32,7 @@ public class ManageServlet extends HttpServlet {
         System.out.println("ManageServlet");
         if ("Teacher".equals(URI)){//处理教师
             System.out.println("teacherInto");
-            Teacher teacher= (Teacher) session.getAttribute("teacher");//id不应该允许被更改,是pk
+            Teacher teacher= (Teacher) session.getAttribute("teacher");//id不应该允许被更改,是pkqwe
             if(session.getAttribute("teacher")==null || session.getAttribute("teacher")=="null"){
                 teacher= new Teacher(request.getParameter("id"));
             }

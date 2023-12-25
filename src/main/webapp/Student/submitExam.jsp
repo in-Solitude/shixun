@@ -20,7 +20,7 @@
 
 
     List<QuestionBank> questions = new ArrayList<>();
-     questions= (List<QuestionBank>) session.getAttribute("questions");
+     questions= (List<QuestionBank>) session.getAttribute("questions");//qwe
     for (QuestionBank question : questions) {
 
         // 获取用户选择的答案

@@ -63,7 +63,7 @@
 <%
     int id= Integer.parseInt(request.getParameter("id"));
     GenericDAO genericDAO;
-    try {
+    try {//qwe
         genericDAO= new GenericDAO();
     } catch (ClassNotFoundException | SQLException e) {
         throw new RuntimeException(e);
